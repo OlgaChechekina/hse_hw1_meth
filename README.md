@@ -21,7 +21,6 @@ Bismark Report и M-bias plots можно найти в файлах.
 <img width="844" alt="SRR73_bias_M_R1" src="https://user-images.githubusercontent.com/60808830/154758887-115ca684-dc23-495e-92e6-577a2db7bcd7.PNG">
 <img width="832" alt="SRR73_bias_M_R2" src="https://user-images.githubusercontent.com/60808830/154758918-ce83d931-d412-4189-abdc-e8214ea554b0.PNG">  
 Уровень покрытия, метилирования:  
-Митилирование:
 
 ! bedGraphToBigWig s_SRR5836473_1_bismark_bt2_pe.deduplicated.bedGraph m.chrom.sizes cell8_methylation.bigWig.bw  
 ! bedGraphToBigWig s_SRR3824222_1_bismark_bt2_pe.deduplicated.bedGraph m.chrom.sizes epiblast_methylation.bigWig.bw  
