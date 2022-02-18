@@ -23,10 +23,10 @@ Bismark Report и M-bias plots можно найти в файлах.
 Уровень покрытия, метилирования:  
 Митилирование:
 
-! bedGraphToBigWig s_SRR5836473_1_bismark_bt2_pe.deduplicated.bedGraph m.chrom.sizes cell8_methylation.bigWig.bw
-! bedGraphToBigWig s_SRR3824222_1_bismark_bt2_pe.deduplicated.bedGraph m.chrom.sizes epiblast_methylation.bigWig.bw
-! bedGraphToBigWig s_SRR5836475_1_bismark_bt2_pe.deduplicated.bedGraph m.chrom.sizes icm_methylation.bigWig.bw
-! make_tracks_file --trackFiles cell8_methylation.bigWig.bw epiblast_methylation.bigWig.bw icm_methylation.bigWig.bw -o tracks.ini
-! pyGenomeTracks --tracks tracks.ini --region chr11:3000000-4000000 -o image.png
+! bedGraphToBigWig s_SRR5836473_1_bismark_bt2_pe.deduplicated.bedGraph m.chrom.sizes cell8_methylation.bigWig.bw  
+! bedGraphToBigWig s_SRR3824222_1_bismark_bt2_pe.deduplicated.bedGraph m.chrom.sizes epiblast_methylation.bigWig.bw  
+! bedGraphToBigWig s_SRR5836475_1_bismark_bt2_pe.deduplicated.bedGraph m.chrom.sizes icm_methylation.bigWig.bw  
+! make_tracks_file --trackFiles cell8_methylation.bigWig.bw epiblast_methylation.bigWig.bw icm_methylation.bigWig.bw -o tracks.ini  
+! pyGenomeTracks --tracks tracks.ini --region chr11:3000000-4000000 -o image.png  
 <img width="959" alt="meth_cov" src="https://user-images.githubusercontent.com/60808830/154759029-3f43f2b1-378e-4a2e-92cc-8803ebc9d964.PNG">
 
